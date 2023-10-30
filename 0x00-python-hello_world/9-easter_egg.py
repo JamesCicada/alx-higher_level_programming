@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 
 import this
-print(this.s)
+import codecs
+print(codecs.decode(this.s, 'rot13'))
