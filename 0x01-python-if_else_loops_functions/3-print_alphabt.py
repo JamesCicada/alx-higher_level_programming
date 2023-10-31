@@ -2,5 +2,5 @@
 
 for letter in range(ord('a'), ord('z') + 1):
     valid = letter == 'e' or letter == 'q'
-        if !valid :
+        if valid: == False:
         print("{}".format(chr(letter)), end='')
