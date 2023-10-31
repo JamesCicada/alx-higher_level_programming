@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
 for letter in range(ord('a'), ord('z') + 1):
-    if letter not 'q' and letter not 'e':
+    valid = letter == 'e' or letter == 'q'
+        if !valid :
         print("{}".format(chr(letter)), end='')
