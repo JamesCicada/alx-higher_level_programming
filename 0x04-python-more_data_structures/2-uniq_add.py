@@ -3,11 +3,6 @@
 def uniq_add(my_list=[]):
     result = []
     for i in my_list:
-        found = False
-        for item in result:
-            if i == item:
-                found = True
-        if not found:
+        if i not in result:
             result.append(i)
-    print(result)
-    return eval('+'.join(str(x) for x in result))
+    return sum(result)
