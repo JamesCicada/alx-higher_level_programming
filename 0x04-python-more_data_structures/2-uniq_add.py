@@ -11,4 +11,3 @@ def uniq_add(my_list=[]):
             result.append(i)
     print(result)
     return eval('+'.join(str(x) for x in result))
-
