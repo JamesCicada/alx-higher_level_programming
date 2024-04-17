@@ -1,12 +1,11 @@
 #!/usr/bin/python3
+
 """
 Contains the MyList class.
 """
 
-
 class MyList(list):
     """A subclass of list."""
-    
     def __init__(self):
         """Initializes the object."""
         super().__init__()
